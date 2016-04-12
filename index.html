@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+	<head>
+		<title>a simple javascript quiz</title>
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<header>							
+				<center>
+					<br>
+					<img src="img/Planet_1.png" alt="planet"/>
+					<img src="img/Astronaut.png" alt="astronaut"/>
+					<img src="img/Solar_System.png" alt="solar system"/>
+				</center><br>
+				<h1>a simple space quiz</h1><br>
+			</header>
+			<section>
+				<form name="quizForm" onsubmit="return submitAnswers()">
+					<h3>1. What was the first phrase spoken on the moon?</h3>
+					<input type="radio" name="q1" value="a" id="q1a">a. One Small Step<br>
+					<input type="radio" name="q1" value="b" id="q1b">b. Mission Complete<br>
+					<input type="radio" name="q1" value="c" id="q1c">c. Contact light<br>
+					<input type="radio" name="q1" value="d" id="q1d">d. Touchdown<br>
+					<h3>2. Apollo 11 launched on a 363-foot-tall rocket called what?</h3>
+					<input type="radio" name="q2" value="a" id="q2a">a. Mercury X<br>
+					<input type="radio" name="q2" value="b" id="q2b">b. Galaxy S<br>
+					<input type="radio" name="q2" value="c" id="q2c">c. Saturn V<br>
+					<input type="radio" name="q2" value="d" id="q2d">d. Solo T<br>
+					<h3>3. Who joined Neil Armstrong and Buzz Aldrin on the Apollo 11 mission?</h3>
+					<input type="radio" name="q3" value="a" id="q3a">a. Michael Collins<br>
+					<input type="radio" name="q3" value="b" id="q3b">b. Gabrey Carter<br>
+					<input type="radio" name="q3" value="c" id="q3c">c. Aubrey James<br>
+					<input type="radio" name="q3" value="d" id="q3d">d. Timothy Hustle<br>
+					<h3>4. Neil Armstrong's first task after stepping on the moon was what?</h3>
+					<input type="radio" name="q4" value="a" id="q4a">a. Plant the american flag<br>
+					<input type="radio" name="q4" value="b" id="q4b">b. Collect moon rock<br>
+					<input type="radio" name="q4" value="c" id="q4c">a. Make contact<br>
+					<input type="radio" name="q4" value="d" id="q4d">b. Report to the president<br>
+					<h3>5. What was the maiden name of Buzz Aldrin's mother?</h3>
+					<input type="radio" name="q5" value="a" id="q5a">a. Moon<br>
+					<input type="radio" name="q5" value="b" id="q5b">b. Sinclair<br>
+					<input type="radio" name="q5" value="c" id="q5c">c. Smith<br>
+					<input type="radio" name="q5" value="d" id="q5d">d. Pointer<br>
+					<h3>6. The Apollo 11 command and lunar modules were named Columbia and what?</h3>
+					<input type="radio" name="q6" value="a" id="q6a">a. Eagle<br>
+					<input type="radio" name="q6" value="b" id="q6b">b. Hawkeye<br>
+					<input type="radio" name="q6" value="c" id="q6c">c. Burley<br>
+					<input type="radio" name="q6" value="d" id="q6d">d. Hampton<br>
+					<h3>7. What's Earth's true shape?</h3>
+					<input type="radio" name="q7" value="a" id="q7a">a. flat<br>
+					<input type="radio" name="q7" value="b" id="q7b">b. sphere<br>
+					<input type="radio" name="q7" value="c" id="q7c">c. oblate spheroid<br>
+					<input type="radio" name="q7" value="d" id="q7d">d. round<br>
+					<h3>8. A plaque left by Apollo 11 on the moon stated we came in "what" for all mankind?</h3>
+					<input type="radio" name="q8" value="a" id="q8a">a. understanding<br>
+					<input type="radio" name="q8" value="b" id="q8b">b. peace<br>
+					<input type="radio" name="q8" value="c" id="q8c">c. science<br>
+					<input type="radio" name="q8" value="d" id="q8d">d. discovery<br>
+					<h3>9. Roughly how old is Earth?</h3>
+					<input type="radio" name="q9" value="a" id="q9a">a. 3000 years<br>
+					<input type="radio" name="q9" value="b" id="q9b">b. 4.54 billion years<br>
+					<input type="radio" name="q9" value="a" id="q9c">a. 50,000 years<br>
+					<input type="radio" name="q9" value="b" id="q9d">b. 100 million years<br>
+					<h3>10. Neil Armstrong and Buzz Aldrin walked on the moon for how long?</h3>
+					<input type="radio" name="q10" value="a" id="q10a">a. 5 hours, 25 minutes<br>
+					<input type="radio" name="q10" value="b" id="q10b">b. 17 hours<br>
+					<input type="radio" name="q10" value="c" id="q10c">c. 2 hours, 30 minutes<br>
+					<input type="radio" name="q10" value="d" id="q10d">d. 8 hours<br>
+					<br><br>
+					<center><input type="submit" value="Finish Quiz"></center>
+				</form>
+				<div id="results"></div>
+			</section>
+			<footer>
+				<p>questions courtesy of <a href="https://space.com/">space.com</a><br>
+				image(s) courtesy of <a href="https://dribbble.com/shots/2598028-Space-Icon-Set-Download">Dale Humphries @ dribble</a></p>
+				<p>copyright &copy; 2016. all rights reserved.</p>
+			</footer>
+		</div>
+	</body>
+</html>
